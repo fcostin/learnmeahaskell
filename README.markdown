@@ -3,7 +3,7 @@ learn me a haskell
 
 beating some functional programmings into my python-addled semi-imperative noggin.
 
-this code is licensed as [beerware][]
+this code is licensed as [beerware][] if you are mad enough to want to use it
 
 ### references
 *   [learnyouahaskell][]
