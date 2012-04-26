@@ -1,9 +1,8 @@
 module Game.ViewEvent where
 
-import qualified Game.Board as Game
+import qualified Game.World as World
 
 data ViewEvent =
     End |
-    UpdateMove Game.Move |
     PositionCursor Int Int |
-    Redraw
+    Redraw World.World

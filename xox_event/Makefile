@@ -1,4 +1,4 @@
-GHC_FLAGS := 
+GHC_FLAGS := -threaded -Wall
 
 all:	build/main.out
 .IGNORE: all

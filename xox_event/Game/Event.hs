@@ -1,9 +1,9 @@
 module Game.Event where
 
 import Game.UIEvent
-import Game.ComputeEvent
+import Game.GameEvent
 
 data Event =
-    Ui UIEvent |
-    Compute ComputeEvent
+    UI UIEvent |
+    Game GameEvent
     
