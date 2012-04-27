@@ -1,4 +1,4 @@
-GHC_FLAGS := -threaded -Wall
+GHC_FLAGS := -threaded -Wall -O2 -rtsopts -prof
 
 all:	build/main.out
 .IGNORE: all
