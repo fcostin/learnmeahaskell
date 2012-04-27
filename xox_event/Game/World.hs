@@ -9,8 +9,8 @@ empty_world :: World
 empty_world = []
 
 apply_move :: Game.Move -> World -> World
-apply_move m w =
-    case m `List.elem` w of
-        True -> w -- ignore duplicate moves
-        False -> (m:w)
+apply_move (p, i, j) w =
+    case List.find (\ (_, i', j') -> (i == i') && (j == j')) w of
+        Just _ -> w -- ignore duplicate moves
+        Nothing -> ((p, i, j):w)
 
