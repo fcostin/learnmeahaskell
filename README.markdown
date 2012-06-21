@@ -1,9 +1,11 @@
 learn me a haskell
 ------------------
 
-beating some functional programmings into my python-addled semi-imperative noggin.
+Here are a few small programs i wrote while beginning to learn Haskell:
 
-this code is licensed as [beerware][] if you are mad enough to want to use it
+1.  `xox` - a noughts and crosses game against the computer using a command line interface
+2.  `xox_sdl` - port of `xox` to a crude SDL-based mouse-driven GUI
+3.  `xox_event` - a rewrite of `xox_sdl` to use multiple threads
 
 ### references
 *   [learnyouahaskell][]
@@ -12,7 +14,6 @@ this code is licensed as [beerware][] if you are mad enough to want to use it
 *   [hoogle][]
 
 
-[beerware]: http://en.wikipedia.org/wiki/Beerware
 [wikibooks]:    http://en.wikibooks.org/wiki/Haskell/Hierarchical_libraries/Maps
 [learnyouahaskell]: http://learnyouahaskell.com/
 [real world haskell]:   http://www.realworldhaskell.org/
